@@ -1,0 +1,105 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  color: #b9e1dc;
+  background-color: #b9e1dc
+}
+
+h1, h2 {
+  color: #756c83;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #fbfbfb;
+}
+
+.card-sizing {
+  background-color: #fbfbfb;
+  width: 600px;
+  margin: 50px auto;
+  box-shadow: 0, 10px, 30px, rgba(2,2,2,2.1);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn-square {
+  background-color: #f38181;
+  padding: 25px 30px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.btn-square:hover {
+  background-color: #756c83;
+}
+
+.p-fontsize {
+  font-size: 25px;
+}
+
+.ul-inline {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 50px;
+  margin: 0;
+}
+
+.icon-purple {
+  color: #756c83;
+}
+
+.icon-purple:hover {
+  color: #f38181;
+}
+
+.list-links {
+  list-style: none;
+}
+
+.btn-padding {
+  padding: 20px 0px;
+}
+
+@media (max-width: 720px) {
+
+  .card-sizing{
+    width: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .card-sizing {
+    width: 200px;
+  }
+
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .btn-square {
+    padding: 15px 20px;
+    font-size: 15px
+  }
+
+  .p-fontsize {
+    font-size: 15px;
+  }
+}
+
